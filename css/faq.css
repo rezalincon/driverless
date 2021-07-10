@@ -17,16 +17,31 @@ body {
     background-attachment: fixed;
     background-size: cover;
     padding:130px 0;
+    display: flex;
+    -ms-flex-direction: row;
 }
 .cuerpo{
-    width:85%;
+    width:55%;
     background:white;
     border-radius:20px;
-    margin:auto;
+    margin-left: 2%;
+    margin-right: 2%;
     display:flex;
     flex-direction:column;
     align-items:center;
     padding:0 15px 30px 15px;
+}
+.newsfeed-wrap{
+    background-color: white;
+    padding: 15px;
+    width: 40%;
+    border-radius: 20px;
+    overflow: auto;
+    max-height: 616px;
+}
+.news-item{
+    padding: 5px;
+    border-bottom: 2px solid lightgray;
 }
 .img{
     width:400px;
